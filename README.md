@@ -8,6 +8,8 @@
 console.log('https://'+SSR_RENDER_DATA['43']['aweme']['detail']['video']['playAddr'][0]['src'])
 ```
 
+![](./douyin-download.png)
+
 ## 方法2：python实现，依赖selenium
 
 ### 准备
