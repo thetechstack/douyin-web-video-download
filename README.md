@@ -1,13 +1,20 @@
 # 抖音网页版视频下载
 
+## 方法1：直接在浏览器控制台获取
 
-## 依赖
+在控制台输入
 
-python实现，依赖selenium
+``` javascript
+console.log('https://'+SSR_RENDER_DATA['43']['aweme']['detail']['video']['playAddr'][0]['src'])
+```
+
+## 方法2：python实现，依赖selenium
+
+### 准备
 
 先到[chromedriver.chromium.org](https://chromedriver.chromium.org/downloads)下载对应Chrome版本的chromedriver.exe
 
-## 完整代码
+### 完整代码
 
 
 ``` python
