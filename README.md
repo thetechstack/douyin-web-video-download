@@ -2,7 +2,7 @@
 
 ## 方法1：直接在浏览器控制台获取
 
-在控制台输入
+在视频详情页，比如https://www.douyin.com/video/6963452081848028430， 打开控制台，输入
 
 ``` javascript
 console.log('https://'+SSR_RENDER_DATA['43']['aweme']['detail']['video']['playAddr'][0]['src'])
